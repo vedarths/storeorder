@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vds-coffee-service" />
+        <module name="vds-order-service" />
+        <module name="vws-order-application" />
+        <module name="vws-order-management-models" />
+        <module name="vwsorderrepository" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vds-coffee-service" target="1.8" />
+      <module name="vds-order-service" target="1.8" />
+      <module name="vws-coffee-order" target="1.8" />
+      <module name="vws-order" target="1.8" />
+      <module name="vws-order-application" target="1.8" />
+      <module name="vws-order-management-models" target="1.8" />
+      <module name="vws-order-repository" target="1.5" />
+      <module name="vwsorderrepository" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

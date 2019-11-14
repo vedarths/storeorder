@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/vds-order-service/vds-order-service.iml" filepath="$PROJECT_DIR$/vds-order-service/vds-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vws-order.iml" filepath="$PROJECT_DIR$/vws-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vws-order-application/vws-order-application.iml" filepath="$PROJECT_DIR$/vws-order-application/vws-order-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vws-order-management-models/vws-order-management-models.iml" filepath="$PROJECT_DIR$/vws-order-management-models/vws-order-management-models.iml" />
+    </modules>
+  </component>
+</project>
