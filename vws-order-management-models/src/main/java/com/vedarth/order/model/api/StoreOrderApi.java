@@ -9,4 +9,5 @@ public interface StoreOrderApi {
 
     StoreOrderResponse getOrders(String storeId);
 
+    String receiptOrder(StoreOrder storeOrder);
 }

@@ -26,4 +26,9 @@ public class StoreOrderService implements StoreOrderApi {
     public StoreOrderResponse getOrders(String storeId) {
         return storeOrderApplication.getOrders(storeId);
     }
+
+    @Override
+    public String receiptOrder(StoreOrder storeOrder) {
+        return storeOrderApplication.receiptOrder(storeOrder);
+    }
 }

@@ -4,6 +4,8 @@ package com.vedarth.application.order;
 import com.vedarth.order.model.api.StoreOrderApi;
 import com.vedarth.order.model.store.StoreOrder;
 import com.vedarth.order.model.store.StoreOrderResponse;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -16,6 +18,8 @@ import static com.vedarth.order.model.store.StoreOrderResponse.Builder.aStoreOrd
 
 @Component
 public class StoreOrderApplication implements StoreOrderApi {
+
+    private Logger logger = LoggerFactory.getLogger(getClass());
 
     //store customer order statically to avoid repo usage
     private final Map<String, List<StoreOrder>> storeOrderMap;
@@ -45,5 +49,11 @@ public class StoreOrderApplication implements StoreOrderApi {
         }
         return aStoreOrderResponse().withStoreOrders(storeOrders)
                 .build();
+    }
+
+    @Override
+    public String receiptOrder(StoreOrder storeOrder) {
+        logger.info("receipting store order with order number [{}]", storeOrder.getOrderNumber());
+        return "SUCCESS";
     }
 }

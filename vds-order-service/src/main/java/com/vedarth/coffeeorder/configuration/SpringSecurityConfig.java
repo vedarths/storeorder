@@ -22,7 +22,6 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         httpSecurity.httpBasic()
                 .and()
                 .authorizeRequests()
-                .mvcMatchers(HttpMethod.GET, "/v1/order/**").hasRole("USER")
                 .mvcMatchers(HttpMethod.GET, "v1/retail/**").hasRole("USER")
                 .mvcMatchers(HttpMethod.POST, "v1/retail/**").hasRole("USER")
                 .and()
