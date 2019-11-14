@@ -1,0 +1,470 @@
+2019-11-13 19:35:10,574 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19444 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:35:10,652 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:35:13,645 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:35:13,690 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:35:13,716 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:35:13,721 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:35:14,068 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:35:14,069 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3312 ms
+2019-11-13 19:35:14,715 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:35:15,085 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:35:15,126 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 19:35:15,135 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 6.855 seconds (JVM running for 8.621)
+2019-11-13 19:45:31,044 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19617 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:45:31,048 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:45:33,642 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:45:33,674 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:45:33,697 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:45:33,698 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:45:33,906 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:45:33,907 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2601 ms
+2019-11-13 19:45:34,405 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:45:35,098 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 622a3023-7cfb-4719-a7f7-b795193b72e4
+
+2019-11-13 19:45:35,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d16be4f, org.springframework.security.web.context.SecurityContextPersistenceFilter@4130955c, org.springframework.security.web.header.HeaderWriterFilter@2b4b96a4, org.springframework.security.web.csrf.CsrfFilter@7b3cde6f, org.springframework.security.web.authentication.logout.LogoutFilter@276cc8dc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ff54f3d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@45c9b3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@17b37e9a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@14924f41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71adfedd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b67cc70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bcb12e6, org.springframework.security.web.session.SessionManagementFilter@17e9bc9e, org.springframework.security.web.access.ExceptionTranslationFilter@3d20e575, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2be21396]
+2019-11-13 19:45:35,500 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:45:35,543 ERROR org.apache.juli.logging.DirectJDKLog [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.vedarth.coffeeorder.controller.OrderManagementApplication.main(OrderManagementApplication.java:12)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-11-13 19:45:35,564 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:45:35,564 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-11-13 19:45:35,614 INFO org.apache.juli.logging.DirectJDKLog [main] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-11-13 19:45:35,628 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:45:35,628 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:45:35,666 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-13 19:45:35,674 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-11-13 19:45:35,826 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:46:27,703 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19634 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:46:27,707 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:46:29,917 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:46:29,941 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:46:29,966 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:46:29,967 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:46:30,111 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:46:30,112 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2282 ms
+2019-11-13 19:46:30,464 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:46:30,843 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 14cbc7e3-83de-4c5e-985b-2eea471ac137
+
+2019-11-13 19:46:30,942 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@315105f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5584d9c6, org.springframework.security.web.header.HeaderWriterFilter@682af059, org.springframework.security.web.csrf.CsrfFilter@7f4701b1, org.springframework.security.web.authentication.logout.LogoutFilter@1668919e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4cb702ce, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4130955c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b61bf11, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b88b8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d0be7ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36b9cb99, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40247d48, org.springframework.security.web.session.SessionManagementFilter@4da39ca9, org.springframework.security.web.access.ExceptionTranslationFilter@35c4e864, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c6b4ed7]
+2019-11-13 19:46:30,995 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:46:31,008 ERROR org.apache.juli.logging.DirectJDKLog [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.vedarth.coffeeorder.controller.OrderManagementApplication.main(OrderManagementApplication.java:12)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-11-13 19:46:31,013 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:46:31,013 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-11-13 19:46:31,026 INFO org.apache.juli.logging.DirectJDKLog [main] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-11-13 19:46:31,027 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:46:31,027 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:46:31,030 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-13 19:46:31,032 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-11-13 19:46:31,035 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:47:05,045 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19640 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:47:05,049 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:47:06,934 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:47:06,957 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:47:06,973 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:47:06,973 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:47:07,109 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:47:07,110 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1875 ms
+2019-11-13 19:47:07,401 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:47:07,810 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 84c9fbf6-395b-46f1-a05d-e1f22d748b26
+
+2019-11-13 19:47:07,935 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@430b2699, org.springframework.security.web.context.SecurityContextPersistenceFilter@2dd8ff1d, org.springframework.security.web.header.HeaderWriterFilter@631cb129, org.springframework.security.web.csrf.CsrfFilter@3b95a6db, org.springframework.security.web.authentication.logout.LogoutFilter@5a936e64, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@315105f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3a6045c6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67536ae0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@14c93774, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36b9cb99, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22c53d82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6413d7e7, org.springframework.security.web.session.SessionManagementFilter@3252747e, org.springframework.security.web.access.ExceptionTranslationFilter@3127cb44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b73433]
+2019-11-13 19:47:08,030 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:47:08,048 ERROR org.apache.juli.logging.DirectJDKLog [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.vedarth.coffeeorder.controller.OrderManagementApplication.main(OrderManagementApplication.java:12)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-11-13 19:47:08,064 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:47:08,066 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-11-13 19:47:08,083 INFO org.apache.juli.logging.DirectJDKLog [main] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-11-13 19:47:08,083 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:47:08,083 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:47:08,087 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-13 19:47:08,089 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-11-13 19:47:08,092 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:48:13,232 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19671 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:48:13,251 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:48:15,528 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:48:15,556 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:48:15,581 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:48:15,582 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:48:15,713 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:48:15,714 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2376 ms
+2019-11-13 19:48:16,131 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:48:16,535 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 9f56e166-698f-4b46-9f90-bc51577ebd69
+
+2019-11-13 19:48:16,667 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a4aadf8, org.springframework.security.web.context.SecurityContextPersistenceFilter@29896529, org.springframework.security.web.header.HeaderWriterFilter@6a15b73, org.springframework.security.web.csrf.CsrfFilter@285583d4, org.springframework.security.web.authentication.logout.LogoutFilter@67bb4dcd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18dd5ed3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79e7188e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7bbfc5ff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4c6a4ffd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41b64020, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65514add, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a682d35, org.springframework.security.web.session.SessionManagementFilter@15fb4566, org.springframework.security.web.access.ExceptionTranslationFilter@77f4c040, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ab35b9c]
+2019-11-13 19:48:16,729 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:48:16,762 ERROR org.apache.juli.logging.DirectJDKLog [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.vedarth.coffeeorder.controller.OrderManagementApplication.main(OrderManagementApplication.java:12)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-11-13 19:48:16,776 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:48:16,777 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-11-13 19:48:16,798 INFO org.apache.juli.logging.DirectJDKLog [main] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-11-13 19:48:16,799 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:48:16,799 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:48:16,805 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-13 19:48:16,807 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-11-13 19:48:16,811 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:50:29,179 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19701 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:50:29,184 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:50:31,568 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:50:31,595 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:50:31,617 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:50:31,617 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:50:31,756 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:50:31,756 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2369 ms
+2019-11-13 19:50:32,254 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:50:32,662 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: f0d32ee3-29bd-49dc-b960-ddca3e073477
+
+2019-11-13 19:50:32,812 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2efd2f21, org.springframework.security.web.context.SecurityContextPersistenceFilter@4aeb0e2b, org.springframework.security.web.header.HeaderWriterFilter@cde8c6c, org.springframework.security.web.csrf.CsrfFilter@3946075, org.springframework.security.web.authentication.logout.LogoutFilter@23468512, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@729c8063, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@64b018f3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@59c500f7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19e21f89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47b33e07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@193bb809, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@316cda31, org.springframework.security.web.session.SessionManagementFilter@3592c1c4, org.springframework.security.web.access.ExceptionTranslationFilter@6518fdfd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c6a5192]
+2019-11-13 19:50:32,880 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:50:32,929 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 19:50:32,936 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 5.062 seconds (JVM running for 6.318)
+2019-11-13 19:51:05,959 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 19:51:05,960 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-13 19:51:05,971 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 11 ms
+2019-11-13 19:54:48,690 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:54:54,478 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19756 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:54:54,482 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:54:56,641 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:54:56,672 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:54:56,690 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:54:56,691 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:54:56,836 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:54:56,836 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2227 ms
+2019-11-13 19:54:57,242 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:54:57,644 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 7476f873-b3ba-418e-bab2-f9852ffd3e48
+
+2019-11-13 19:54:57,779 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31e739bf, org.springframework.security.web.context.SecurityContextPersistenceFilter@6518fdfd, org.springframework.security.web.header.HeaderWriterFilter@59a2388e, org.springframework.security.web.csrf.CsrfFilter@5a0e0886, org.springframework.security.web.authentication.logout.LogoutFilter@581b1c08, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b3ab4f9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@19489b27, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@29079032, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1b7f06c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cde8c6c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@590765c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e7743ec, org.springframework.security.web.session.SessionManagementFilter@3dc40ab9, org.springframework.security.web.access.ExceptionTranslationFilter@33f2cfda, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ba1308d]
+2019-11-13 19:54:57,851 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:54:57,908 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 19:54:57,915 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 4.683 seconds (JVM running for 5.944)
+2019-11-13 19:55:03,796 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 19:55:03,800 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-11-13 19:55:03,813 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2019-11-13 19:55:36,786 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:55:44,268 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19769 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:55:44,272 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:55:46,761 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:55:46,801 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:55:46,821 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:55:46,822 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:55:47,049 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:55:47,050 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2624 ms
+2019-11-13 19:55:47,616 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:55:48,167 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f0bab7e, org.springframework.security.web.context.SecurityContextPersistenceFilter@576b7c74, org.springframework.security.web.header.HeaderWriterFilter@7fda2001, org.springframework.security.web.authentication.logout.LogoutFilter@2287395, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@38f981b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73894c5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15d0d6c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a7b2e2, org.springframework.security.web.session.SessionManagementFilter@21ae657b, org.springframework.security.web.access.ExceptionTranslationFilter@5fcd1f0a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1eb9a3ef]
+2019-11-13 19:55:48,249 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:55:48,296 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 19:55:48,332 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 5.561 seconds (JVM running for 6.785)
+2019-11-13 19:55:52,656 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 19:55:52,657 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-13 19:55:52,669 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 12 ms
+2019-11-13 19:55:53,014 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:244)
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$LazyPasswordEncoder.matches(WebSecurityConfigurerAdapter.java:594)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:180)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-11-13 19:57:11,797 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:57:18,217 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 19789 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 19:57:18,225 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 19:57:20,573 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 19:57:20,599 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:57:20,618 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 19:57:20,619 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 19:57:20,784 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 19:57:20,784 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2432 ms
+2019-11-13 19:57:21,230 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 19:57:21,760 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f8dfe74, org.springframework.security.web.context.SecurityContextPersistenceFilter@2efd2f21, org.springframework.security.web.header.HeaderWriterFilter@7e7743ec, org.springframework.security.web.authentication.logout.LogoutFilter@68b7d0ef, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4a070cf0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@316cda31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b2dd3df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@401c4250, org.springframework.security.web.session.SessionManagementFilter@7f42e06e, org.springframework.security.web.access.ExceptionTranslationFilter@31e739bf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@322204dc]
+2019-11-13 19:57:21,835 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 19:57:21,872 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 19:57:21,879 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 5.832 seconds (JVM running for 7.178)
+2019-11-13 19:57:29,326 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 19:57:29,327 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-11-13 19:57:29,346 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 18 ms
+2019-11-13 19:57:39,463 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 21:04:36,998 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 21237 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 21:04:37,002 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 21:04:39,291 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 21:04:39,319 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 21:04:39,338 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 21:04:39,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 21:04:39,475 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 21:04:39,475 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2392 ms
+2019-11-13 21:04:39,840 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 21:04:40,333 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@401c4250, org.springframework.security.web.context.SecurityContextPersistenceFilter@59c500f7, org.springframework.security.web.header.HeaderWriterFilter@776015fc, org.springframework.security.web.authentication.logout.LogoutFilter@7069f076, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@764b14b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50110971, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4db77402, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a950fdd, org.springframework.security.web.session.SessionManagementFilter@6ad179b4, org.springframework.security.web.access.ExceptionTranslationFilter@29079032, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@656a3d6b]
+2019-11-13 21:04:40,392 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 21:04:40,426 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 21:04:40,432 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 4.846 seconds (JVM running for 6.171)
+2019-11-13 21:04:51,600 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 21:04:51,601 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-11-13 21:04:51,610 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2019-11-13 21:39:25,308 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 21:39:41,146 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 21468 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 21:39:41,150 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 21:39:43,501 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 21:39:43,535 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 21:39:43,558 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 21:39:43,558 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 21:39:43,705 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 21:39:43,706 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2438 ms
+2019-11-13 21:39:44,185 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 21:39:44,644 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f238e4f, org.springframework.security.web.context.SecurityContextPersistenceFilter@64b70f41, org.springframework.security.web.header.HeaderWriterFilter@7bbfc5ff, org.springframework.security.web.authentication.logout.LogoutFilter@7f79edee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@49433c98, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16134476, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39941489, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b24087d, org.springframework.security.web.session.SessionManagementFilter@ee8e7ff, org.springframework.security.web.access.ExceptionTranslationFilter@38f981b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@704067c6]
+2019-11-13 21:39:44,714 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 21:39:44,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 21:39:44,758 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 5.018 seconds (JVM running for 6.01)
+2019-11-13 21:43:21,383 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 21:43:21,383 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-13 21:43:21,393 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 10 ms
+2019-11-13 21:47:12,960 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 21:47:21,165 INFO org.springframework.boot.StartupInfoLogger [main] Starting OrderManagementApplication on vedarths-mbp.lan with PID 21524 (/Users/darth/Downloads/vws-order-management/vds-order-service/target/classes started by darth in /Users/darth/Downloads/vws-order-management)
+2019-11-13 21:47:21,169 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 21:47:23,416 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-11-13 21:47:23,443 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 21:47:23,461 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-13 21:47:23,461 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 21:47:23,608 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-13 21:47:23,608 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2376 ms
+2019-11-13 21:47:24,116 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 21:47:24,527 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d66e944, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e214105, org.springframework.security.web.header.HeaderWriterFilter@64b70f41, org.springframework.security.web.authentication.logout.LogoutFilter@3bfae028, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47829d6d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1980a3f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@679dd234, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@469a7575, org.springframework.security.web.session.SessionManagementFilter@16134476, org.springframework.security.web.access.ExceptionTranslationFilter@ee8e7ff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b08772d]
+2019-11-13 21:47:24,593 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 21:47:24,629 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 21:47:24,639 INFO org.springframework.boot.StartupInfoLogger [main] Started OrderManagementApplication in 5.009 seconds (JVM running for 6.162)
+2019-11-13 21:47:49,866 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 21:47:49,869 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-13 21:47:49,881 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 12 ms
