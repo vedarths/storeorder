@@ -33,6 +33,7 @@ public class StoreOrderController {
     @GetMapping("/get/{id}")
     @ResponseBody
     public StoreOrderResponse getOrders(@PathVariable("id") String storeId) {
+        logger.info("getting orders for store id [{}]", storeId);
         return storeOrderService.getOrders(storeId);
     }
 
